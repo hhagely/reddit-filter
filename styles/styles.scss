@@ -30,7 +30,7 @@ body {
 }
 
 header {
-  padding: 15px;
+	padding: 15px;
 }
 
 main {
@@ -80,7 +80,7 @@ a {
 .title {
 	margin: 0;
 	line-height: 1.15;
-  font-size: 4rem;
+	font-size: 4rem;
 }
 
 .title,
@@ -107,9 +107,20 @@ code {
 	align-items: center;
 	justify-content: center;
 	flex-wrap: wrap;
-
-	max-width: 800px;
+	max-width: 1200px;
 	margin-top: 3rem;
+
+	& .gridRow {
+		align-items: center;
+		justify-content: center;
+		max-width: 1200px;
+		margin-bottom: 2rem;
+
+		& .search {
+			display: flex;
+			justify-content: center;
+		}
+	}
 }
 
 .card {
@@ -144,6 +155,10 @@ code {
 
 .logo {
 	height: 1em;
+}
+
+#btnSearch {
+	margin-left: 15px;
 }
 
 @media (max-width: 600px) {

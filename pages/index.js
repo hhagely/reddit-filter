@@ -8,16 +8,14 @@ export default function HomePage() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" />
       </Head>
 
       <header>
         <h1 className="title">MechMarket Filter</h1>
-
       </header>
 
       <main>
-
         <Home />
       </main>
 
@@ -27,10 +25,9 @@ export default function HomePage() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          Powered by <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
         </a>
       </footer>
     </div>
-  )
+  );
 }
