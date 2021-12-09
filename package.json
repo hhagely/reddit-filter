@@ -24,7 +24,7 @@
 	"homepage": "https://github.com/hhagely/reddit-filter#readme",
 	"dependencies": {
 		"nes.css": "^2.3.0",
-		"next": "9.3.5",
+		"next": "11.1.3",
 		"prop-types": "^15.7.2",
 		"react": "16.13.1",
 		"react-dom": "16.13.1",
